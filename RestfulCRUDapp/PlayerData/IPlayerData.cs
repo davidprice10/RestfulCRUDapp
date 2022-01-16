@@ -6,9 +6,9 @@ namespace RestfulCRUDapp.PlayerData
     {
         List<Player> getAllPlayers();
 
-        Player getPlayerById(int id);
+        Player getPlayerById(Guid id);
 
-        Player getPlayerByPosition(string position);
+        Player getAllPlayersByPosition(string position);
 
         Player getAllPlayersByTeam(string teamName);
 
